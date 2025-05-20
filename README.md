@@ -32,14 +32,14 @@ Current release info
 Installing azure-mgmt-policyinsights
 ====================================
 
-Installing `azure-mgmt-policyinsights` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `azure-mgmt-policyinsights` from the `conda-forge/label/azure-mgmt-policyinsights_rc` channel can be achieved by adding `conda-forge/label/azure-mgmt-policyinsights_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/azure-mgmt-policyinsights_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `azure-mgmt-policyinsights` can be installed with `conda`:
+Once the `conda-forge/label/azure-mgmt-policyinsights_rc` channel has been enabled, `azure-mgmt-policyinsights` can be installed with `conda`:
 
 ```
 conda install azure-mgmt-policyinsights
@@ -54,26 +54,26 @@ mamba install azure-mgmt-policyinsights
 It is possible to list all of the versions of `azure-mgmt-policyinsights` available on your platform with `conda`:
 
 ```
-conda search azure-mgmt-policyinsights --channel conda-forge
+conda search azure-mgmt-policyinsights --channel conda-forge/label/azure-mgmt-policyinsights_rc
 ```
 
 or with `mamba`:
 
 ```
-mamba search azure-mgmt-policyinsights --channel conda-forge
+mamba search azure-mgmt-policyinsights --channel conda-forge/label/azure-mgmt-policyinsights_rc
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search azure-mgmt-policyinsights --channel conda-forge
+mamba repoquery search azure-mgmt-policyinsights --channel conda-forge/label/azure-mgmt-policyinsights_rc
 
 # List packages depending on `azure-mgmt-policyinsights`:
-mamba repoquery whoneeds azure-mgmt-policyinsights --channel conda-forge
+mamba repoquery whoneeds azure-mgmt-policyinsights --channel conda-forge/label/azure-mgmt-policyinsights_rc
 
 # List dependencies of `azure-mgmt-policyinsights`:
-mamba repoquery depends azure-mgmt-policyinsights --channel conda-forge
+mamba repoquery depends azure-mgmt-policyinsights --channel conda-forge/label/azure-mgmt-policyinsights_rc
 ```
 
 
